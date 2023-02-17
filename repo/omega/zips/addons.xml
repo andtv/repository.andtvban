@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
 <addon id="repository.andtvban" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [/COLOR][COLOR blueviolet][B]OMEGA[/B][/COLOR]" version="17.2.23" provider-name="andtv_tvban, JoseAnd">
     <extension point="xbmc.addon.repository" name="[COLOR dodgerblue][B]Repo[/B][/COLOR] [COLOR azure][B]ANDTV[/B] [COLOR blueviolet][B]NEXUS[/B][/COLOR]">
         <dir minversion="19.0" maxversion="19.9.9">
@@ -6,7 +7,7 @@
             <checksum>https://raw.githubusercontent.com/andtv/repository.andtvban/master/repo/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/andtv/repository.andtvban/master/repo/matrix/zips</datadir>
         </dir>
-	</extension>	
+	</extension>
         <dir minversion="20.0" maxversion="20.9.9">
             <info compressed="false">https://raw.githubusercontent.com/andtv/repository.andtvban/master/repo/nexus/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/andtv/repository.andtvban/master/repo/nexus/zips/addons.xml.md5</checksum>
@@ -25,12 +26,12 @@
             <datadir zip="true">https://raw.githubusercontent.com/andtv/repository.andtvban/master/repo/omega/zips/</datadir>
         </dir>
     </extension>
-    
+
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]Andtv[/COLOR] [COLOR blueviolet]Omega[/COLOR]</summary>
         <description>Repositorio de addons para [COLOR azure]ANDTV[/COLOR].
 [B][COLOR lime]CREDITOS:
-[COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseAnd[/COLOR]</description> 		             
+[COLOR white]• Developers:[/COLOR][/B] [COLOR gold]JoseAnd[/COLOR]</description>
         <disclaimer>[COLOR cyan]Éste repositorio sólo recoge Add-ons válidos para [COLOR azure]Kodi 20 [COLOR blueviolet]NEXUS.[/COLOR]</disclaimer>
         <platform>all</platform>
         <assets>
@@ -40,4 +41,4 @@
 		<source>https://andtv.github.io/tvban</source>
     </extension>
 </addon>
-
+</addons>
