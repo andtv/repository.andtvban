@@ -1,4 +1,4 @@
-# Repo-ANDTV Leia, Matrix y Nexus.
+# Repo-ANDTV Matrix y Nexus.
 # Tu Repo de ANDTV que no puede faltar para tu Kodi.
 # Leia
 <!--![img](https://i.imgur.com/DBrVLvy.jpg)-->
