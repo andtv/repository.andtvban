@@ -128,6 +128,26 @@
 	</extension>
 </addon>
 
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.2" provider-name="sualfred,marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
+		<description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
+		<platform>all</platform>
+		<license>GPL-2.0</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<source>https://github.com/kodi-community-addons/script.skin.helper.colorpicker</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="skin.auramod.TVBAN-Matrix" version="1.1.11" name="AuraMod [COLOR FF7cfc00]TVBAN[/COLOR]" provider-name="Auramod,[COLOR FF7cfc00]andtv_tvban, JoseAnd[/COLOR]">
     <requires>
         <import addon="xbmc.gui" version="5.15.0"/>
